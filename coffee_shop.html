@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>Coffee Shop</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+
+    <body>
+        <div class ="container">
+            
+            <div class = "title">
+                <h1> S022511H</h1> 
+            </div>
+            
+          
+            <div class ="header">
+                <a href = "index.html"><img id="logo" class="center" src="images/logo2.svg" alt="Andre Simpson site logo"></a>
+            </div>
+                    
+        <div class="nav">
+            <nav id="mainNav">
+                <ul>
+                    <li><a href = "index.html"> Home </a></li>
+                    <li><a href = "skills.html"> Skills </a></li>
+                    <li><a href = "qualifications.html"> Qualifications </a></li>
+                    <li><a href = "coffee_shop.html"> Coffee Shop </a></li>
+                </ul>
+            </nav>
+            </div>
+        
+        <div class="content">
+            <h1>
+                Coffee Shop
+            </h1>
+            <div class="orderMenu">
+
+                <h3>Drink Size: </h3>
+                <select id="size" name="dSize">
+                    <option value="1">Small</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Large</option>
+                </select>
+                
+                <h3>Name:</h3>
+                <select id="name" name="dname">
+                    <option value="1">Latte</option>
+                    <option value="2">Cappucino</option>
+                    <option value="3">Espresso</option>
+                    <option value="4">Americano</option>
+                    <option value="5">Flat White</option>
+                </select>
+                <h3>Extras</h3>
+                <select id="extras" name="extraItems">
+                    <option value="1">Extra Cream</option>
+                    <option value="2">Extra Syrup</option>
+                    <option value="3">None</option>
+                </select>
+                <h3>Shots Number</h3>
+                <select id = "shotsNo" name = "shotsNumber">
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                </select>
+                <br>
+                <br>
+            </div>
+            </div>
+            <div class = "secondary">
+                <span class="center">
+                <button class="buttons" onclick="AddMyOrder()">Add</button>
+            
+            <div id="myOrder">
+            </div>
+            <div id="orderPlacement">
+                <button class="buttons" onclick="PlaceOrder()">Place Order</button>
+            </div>
+                </span>
+            </div>      
+        
+          <div class ="footer">&copy; 
+            <p2>N15 productions</p2>
+            <br>
+            <p2>Andre Simpson<br>s022511h@student.staffs.ac.uk<br>07931206686</p2>
+            </div>
+        </div>
+        
+        <script src="ecma.js"></script>
+            
+    </body>
+</html>
